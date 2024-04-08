@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Yummy-Exam</title>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="icon" href="./image/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="./min.css">
+
+</head>
+
+<body class="bg-dark">
+    <header>
+        <nav class="navbar navbar-z ">
+            <div id="navbar-a" class="navbar navbar-expand-sm   bg-black ">
+                <div id="nav-l" class="nav-tab  d-flex flex-column  me-5 ">
+                    <div class="collapse navbar-collapse me-5" id="collapsibleNavId">
+                        <ul id="navList" class="navbar-nav   me-5 mt-2 d-block">
+                            <li class=" nav-item ">
+                                <a data-slid="serch" class="nav-link text-light " href="#">serach</a>
+                            </li>
+                            <li class="nav-item">
+                                <a data-slid="catg" class="nav-link text-light " href="#">catagoris</a>
+                            </li>
+                            <li class="nav-item">
+                                <a data-slid="area" class="nav-link text-light " href="#">Area</a>
+                            </li>
+                            <li class="nav-item">
+                                <a data-slid="ingred" class="nav-link text-light " href="#">Ingredients</a>
+                            </li>
+                            <li class="nav-item">
+                                <a data-slid="ccont" class="nav-link text-light " href="#">Contact Us</a>
+                            </li>
+                        </ul>
+
+
+
+                    </div>
+                </div>
+                <div class="side-menu d-flex flex-column justify-content-between  text-center bg-white text-black">
+                    <img src=" ./image/logo.png" alt="">
+                    <a id="menu-btn"><i class="fa-solid fa-bars  text-black"> </i></a>
+                    <div class=" mb-2 "><a href=""><i class="fa-solid fa-globe text-black"></i></a></div>
+                </div>
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <section class="main">
+        <div class="container">
+            <div class="row m-auto mt-5 text-center">
+
+
+            </div>
+        </div>
+    </section>
+    <section id="search" class="serch">
+        <div class="container ">
+            <div class="row">
+                <div class="  d-flex mt-2 m-auto position-absolute w-75  top-0 ">
+                    <input input onkeyup="searchByName()" id="by-name"
+                        class=" border border-light rounded-1 bg-transparent w-50 px-5 py-2 mx-2 text-light "
+                        placeholder="search by name" name="">
+                    <input onkeyup="searchFisrtletter()"
+                        class="border border-light rounded-1 bg-transparent w-50 px-5 py-2 mx-2 text-light "
+                        placeholder="search by first letter " name="" id="by-letter">
+
+                </div>
+                <div class="search row mt-5"></div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="catagoris" class="catg">
+        <div class="container ">
+            <div class="row row-2 m-auto mt-5 text-center"> </div>
+        </div>
+
+    </section>
+    <section id="area-1" class="area">
+        <div class="container ">
+            <div class="row row-3 m-auto mt-5 text-center"> </div>
+        </div>
+    </section>
+    <section id="ingred-1" class="ingred">
+        <div class="container ">
+            <div class="row row-4 m-auto mt-5 text-center"> </div>
+        </div>
+    </section>
+    <section id="ingred-3" class="ingred-2">
+        <div class="container">
+            <div class="row row-5 m-auto mt-5 text-center"> </div>
+        </div>
+    </section>
+    <section id="Contact" class="ccont">
+        <div class="container">
+            <form>
+                <div class="mb-3 text-light">
+                    <label for="email1" class="text-light">Email address</label>
+                    <input type="email" class="form-control" id="email1">
+                    <div class="form-text text-light">We'll never share your email with anyone else.
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label class="text-light">Password</label>
+                    <input type="password" class="form-control">
+                </div>
+                <div class="mb-3 ">
+                    <input id="Check1" type="checkbox" class="form-check-input">
+                    <label class="form-check-label text-light" for="Check1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-warning">Submit</button>
+            </form>
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <script src="min.js"></script>
+</body>
+
+</html>
